@@ -2,6 +2,7 @@ import argparse
 import csv
 import os
 import sys
+import multiprocessing
 
 from jina import DocumentArray
 from jina.types.document.generators import from_csv
@@ -77,3 +78,6 @@ flow.expose_endpoint('/finetune', summary='Finetune documents.', tags=['Finetuni
 with flow:
     log("Ready for searching.")
     flow.block()
+
+if __name__ == '__main__':
+    multiprocessing.set_start_method("spawn")

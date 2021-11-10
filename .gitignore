@@ -1,4 +1,5 @@
 workspace
 env
 data
+SDL2*
 __pycache__

@@ -1,25 +1,23 @@
-# Run the neural search over start-ups 💡
-*A gif with a demo speaks louder than a thousand words:*
-
-![Demo](assets/demo.gif)
-
+# 💡 Run the neural search over start-ups 🥰
+<!--"*A gif with a demo speaks louder than a thousand words:*
+![Demo](assets/demo.gif)-->
 
  *A TABLE OF CONTENTS *
  
-- [Overview](#overview)
+- [🎬 Overview](#overview)
 - [🐍 Build the app with Python](#-build-the-app-with-python)
 - [🔮 About Me](#-about-me)
-- [🔨 Next steps, building your own app](#-next-steps-building-your-own-app)
 - [🙍 Community](#-community)
 - [🦄 License](#-license)
 
 
-## Overview
+## 🎬 Overview
 Having recently visited Web Summit, I have realized how many brilliant ideas there are in the world and how much the proper search over them is necessary. However, simple Google search over start-up description using partial descriptions of start-up specializations might be not very successful. That's where neural search might be handy.
 
 | About this app: |  |
 | ------------- | ------------- |
-| Learnings | 1) Doing first neural search and even NLP-related solution 2) After [FineTuner event](https://www.google.com/url?q=https://www.meetup.com/jina-community-meetup/events/279857954&sa=D&source=calendar&usd=2&usg=AOvVaw0IcJx4z1GNZyoQuwPYcyhy) applying better and faster tuning strategies|
+| Learnings | 1. Doing first neural search and even NLP-related solution 
+|  | 2. After [FineTuner event](https://www.google.com/url?q=https://www.meetup.com/jina-community-meetup/events/279857954&sa=D&source=calendar&usd=2&usg=AOvVaw0IcJx4z1GNZyoQuwPYcyhy) applying better and faster tuning strategies|
 | Dataset used | *[Link to Start-Up dataset](https://storage.googleapis.com/generall-shared-data/startups_demo.json)* |
 | Model used | *[Link to Sentence-Transformers model](https://www.sbert.net/)* |
 
@@ -80,7 +78,7 @@ Flow@5162[S]:flow is closed and all resources are released, current build level 
 ```
 
 ### 🔎 Step 4: Query your data
-Next, we will deploy our query Flow. We're doing it in the interface from Streamlit that will be automatically opened in your default browser. 
+Next, we will deploy our query Flow. We're doing it in the interface from [Streamlit](https://streamlit.io/) that will be automatically opened in your default browser. 
 
 1. Open a new terminal without closing the one with Indexing.
 2. Run the query Flow in your terminal like this:
@@ -124,8 +122,8 @@ _____
 
 - [Slack channel](https://slack.jina.ai/) - a communication platform for developers to discuss Jina.
 - [LinkedIn](https://www.linkedin.com/company/jinaai/) - get to know Jina AI as a company and find job opportunities.
-- [![Twitter Follow](https://img.shields.io/twitter/follow/JinaAI_?label=Follow%20%40JinaAI_&style=social)](https://twitter.com/JinaAI_) - follow us and interact with us using hashtag `#JinaSearch`.  
-- [Company](https://jina.ai) - know more about our company, we are fully committed to open-source!
+- [![Twitter Follow](https://img.shields.io/twitter/follow/JinaAI_?label=Follow%20%40JinaAI_&style=social)](https://twitter.com/JinaAI_) - follow and interact with Jina using hashtag `#JinaSearch`.  
+- [Company](https://jina.ai) - know more about the company and how it's fully committed to open-source!
 
 ## 🦄 License
 
